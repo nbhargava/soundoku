@@ -18,6 +18,15 @@
 		5C46C2B616C8C9E500B2A9AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C46C2B516C8C9E500B2A9AB /* Default-568h@2x.png */; };
 		5C46C2B916C8C9E500B2A9AB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C46C2B716C8C9E500B2A9AB /* MainStoryboard.storyboard */; };
 		5C46C2BC16C8C9E500B2A9AB /* SoundokuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C46C2BB16C8C9E500B2A9AB /* SoundokuViewController.m */; };
+		5C46C2CB16C8DD6500B2A9AB /* note_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C46C2CA16C8DD6500B2A9AB /* note_button.png */; };
+		5C46C2CE16C8E02400B2A9AB /* SoundCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C46C2CD16C8E02400B2A9AB /* SoundCollectionViewCell.m */; };
+		5C46C2D116C8E39800B2A9AB /* SoundokuGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C46C2D016C8E39700B2A9AB /* SoundokuGame.m */; };
+		5C46C2D416C8E47800B2A9AB /* SoundokuSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C46C2D316C8E47800B2A9AB /* SoundokuSquare.m */; };
+		5C46C2E216C8EB6200B2A9AB /* SoundokuLevels.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C46C2E116C8EB6200B2A9AB /* SoundokuLevels.m */; };
+		5C46C2E416C98E5100B2A9AB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C46C2E316C98E5100B2A9AB /* QuartzCore.framework */; };
+		5C46C2E716C9975F00B2A9AB /* SoundokuPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C46C2E616C9975F00B2A9AB /* SoundokuPlayer.m */; };
+		5C46C2E916C9979600B2A9AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C46C2E816C9979600B2A9AB /* AVFoundation.framework */; };
+		5C46C2EB16C9979A00B2A9AB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C46C2EA16C9979A00B2A9AB /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,20 @@
 		5C46C2B816C8C9E500B2A9AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5C46C2BA16C8C9E500B2A9AB /* SoundokuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundokuViewController.h; sourceTree = "<group>"; };
 		5C46C2BB16C8C9E500B2A9AB /* SoundokuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundokuViewController.m; sourceTree = "<group>"; };
+		5C46C2CA16C8DD6500B2A9AB /* note_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note_button.png; sourceTree = "<group>"; };
+		5C46C2CC16C8E02400B2A9AB /* SoundCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundCollectionViewCell.h; sourceTree = "<group>"; };
+		5C46C2CD16C8E02400B2A9AB /* SoundCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundCollectionViewCell.m; sourceTree = "<group>"; };
+		5C46C2CF16C8E39700B2A9AB /* SoundokuGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundokuGame.h; sourceTree = "<group>"; };
+		5C46C2D016C8E39700B2A9AB /* SoundokuGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundokuGame.m; sourceTree = "<group>"; };
+		5C46C2D216C8E47800B2A9AB /* SoundokuSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundokuSquare.h; sourceTree = "<group>"; };
+		5C46C2D316C8E47800B2A9AB /* SoundokuSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundokuSquare.m; sourceTree = "<group>"; };
+		5C46C2E016C8EB6200B2A9AB /* SoundokuLevels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundokuLevels.h; sourceTree = "<group>"; };
+		5C46C2E116C8EB6200B2A9AB /* SoundokuLevels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundokuLevels.m; sourceTree = "<group>"; };
+		5C46C2E316C98E5100B2A9AB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5C46C2E516C9975F00B2A9AB /* SoundokuPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundokuPlayer.h; sourceTree = "<group>"; };
+		5C46C2E616C9975F00B2A9AB /* SoundokuPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundokuPlayer.m; sourceTree = "<group>"; };
+		5C46C2E816C9979600B2A9AB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5C46C2EA16C9979A00B2A9AB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C46C2EB16C9979A00B2A9AB /* AudioToolbox.framework in Frameworks */,
+				5C46C2E916C9979600B2A9AB /* AVFoundation.framework in Frameworks */,
+				5C46C2E416C98E5100B2A9AB /* QuartzCore.framework in Frameworks */,
 				5C46C2A016C8C9E500B2A9AB /* UIKit.framework in Frameworks */,
 				5C46C2A216C8C9E500B2A9AB /* Foundation.framework in Frameworks */,
 				5C46C2A416C8C9E500B2A9AB /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +99,9 @@
 		5C46C29E16C8C9E500B2A9AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C46C2EA16C9979A00B2A9AB /* AudioToolbox.framework */,
+				5C46C2E816C9979600B2A9AB /* AVFoundation.framework */,
+				5C46C2E316C98E5100B2A9AB /* QuartzCore.framework */,
 				5C46C29F16C8C9E500B2A9AB /* UIKit.framework */,
 				5C46C2A116C8C9E500B2A9AB /* Foundation.framework */,
 				5C46C2A316C8C9E500B2A9AB /* CoreGraphics.framework */,
@@ -83,11 +112,15 @@
 		5C46C2A516C8C9E500B2A9AB /* Soundoku */ = {
 			isa = PBXGroup;
 			children = (
-				5C46C2AE16C8C9E500B2A9AB /* SoundokuAppDelegate.h */,
-				5C46C2AF16C8C9E500B2A9AB /* SoundokuAppDelegate.m */,
-				5C46C2B716C8C9E500B2A9AB /* MainStoryboard.storyboard */,
+				5C46C2D916C8EAFB00B2A9AB /* Model */,
+				5C46C2CC16C8E02400B2A9AB /* SoundCollectionViewCell.h */,
+				5C46C2CD16C8E02400B2A9AB /* SoundCollectionViewCell.m */,
 				5C46C2BA16C8C9E500B2A9AB /* SoundokuViewController.h */,
 				5C46C2BB16C8C9E500B2A9AB /* SoundokuViewController.m */,
+				5C46C2E516C9975F00B2A9AB /* SoundokuPlayer.h */,
+				5C46C2E616C9975F00B2A9AB /* SoundokuPlayer.m */,
+				5C46C2B716C8C9E500B2A9AB /* MainStoryboard.storyboard */,
+				5C46C2C716C8DB7C00B2A9AB /* Images */,
 				5C46C2A616C8C9E500B2A9AB /* Supporting Files */,
 			);
 			path = Soundoku;
@@ -96,6 +129,8 @@
 		5C46C2A616C8C9E500B2A9AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C46C2AE16C8C9E500B2A9AB /* SoundokuAppDelegate.h */,
+				5C46C2AF16C8C9E500B2A9AB /* SoundokuAppDelegate.m */,
 				5C46C2A716C8C9E500B2A9AB /* Soundoku-Info.plist */,
 				5C46C2A816C8C9E500B2A9AB /* InfoPlist.strings */,
 				5C46C2AB16C8C9E500B2A9AB /* main.m */,
@@ -105,6 +140,27 @@
 				5C46C2B516C8C9E500B2A9AB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C46C2C716C8DB7C00B2A9AB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5C46C2CA16C8DD6500B2A9AB /* note_button.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		5C46C2D916C8EAFB00B2A9AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C46C2D216C8E47800B2A9AB /* SoundokuSquare.h */,
+				5C46C2D316C8E47800B2A9AB /* SoundokuSquare.m */,
+				5C46C2CF16C8E39700B2A9AB /* SoundokuGame.h */,
+				5C46C2D016C8E39700B2A9AB /* SoundokuGame.m */,
+				5C46C2E016C8EB6200B2A9AB /* SoundokuLevels.h */,
+				5C46C2E116C8EB6200B2A9AB /* SoundokuLevels.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +220,7 @@
 				5C46C2B416C8C9E500B2A9AB /* Default@2x.png in Resources */,
 				5C46C2B616C8C9E500B2A9AB /* Default-568h@2x.png in Resources */,
 				5C46C2B916C8C9E500B2A9AB /* MainStoryboard.storyboard in Resources */,
+				5C46C2CB16C8DD6500B2A9AB /* note_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +234,11 @@
 				5C46C2AC16C8C9E500B2A9AB /* main.m in Sources */,
 				5C46C2B016C8C9E500B2A9AB /* SoundokuAppDelegate.m in Sources */,
 				5C46C2BC16C8C9E500B2A9AB /* SoundokuViewController.m in Sources */,
+				5C46C2CE16C8E02400B2A9AB /* SoundCollectionViewCell.m in Sources */,
+				5C46C2D116C8E39800B2A9AB /* SoundokuGame.m in Sources */,
+				5C46C2D416C8E47800B2A9AB /* SoundokuSquare.m in Sources */,
+				5C46C2E216C8EB6200B2A9AB /* SoundokuLevels.m in Sources */,
+				5C46C2E716C9975F00B2A9AB /* SoundokuPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +355,7 @@
 				5C46C2C116C8C9E500B2A9AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

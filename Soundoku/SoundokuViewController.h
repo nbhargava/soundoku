@@ -1,13 +1,8 @@
-//
-//  SoundokuViewController.h
-//  Soundoku
-//
-//  Created by Johan Ismael on 2/10/13.
-//  Copyright (c) 2013 Johan Ismael. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
-@interface SoundokuViewController : UIViewController
+@interface SoundokuViewController : UIViewController<UICollectionViewDataSource>
+
+//methods to override by subclasses
+- (NSUInteger)numberOfSquares;
 
 @end
