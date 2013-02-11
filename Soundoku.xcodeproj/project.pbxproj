@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C46C2A016C8C9E500B2A9AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C46C29F16C8C9E500B2A9AB /* UIKit.framework */; };
+		5C46C2A216C8C9E500B2A9AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C46C2A116C8C9E500B2A9AB /* Foundation.framework */; };
+		5C46C2A416C8C9E500B2A9AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C46C2A316C8C9E500B2A9AB /* CoreGraphics.framework */; };
+		5C46C2AA16C8C9E500B2A9AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C46C2A816C8C9E500B2A9AB /* InfoPlist.strings */; };
+		5C46C2AC16C8C9E500B2A9AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C46C2AB16C8C9E500B2A9AB /* main.m */; };
+		5C46C2B016C8C9E500B2A9AB /* SoundokuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C46C2AF16C8C9E500B2A9AB /* SoundokuAppDelegate.m */; };
+		5C46C2B216C8C9E500B2A9AB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C46C2B116C8C9E500B2A9AB /* Default.png */; };
+		5C46C2B416C8C9E500B2A9AB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C46C2B316C8C9E500B2A9AB /* Default@2x.png */; };
+		5C46C2B616C8C9E500B2A9AB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C46C2B516C8C9E500B2A9AB /* Default-568h@2x.png */; };
+		5C46C2B916C8C9E500B2A9AB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C46C2B716C8C9E500B2A9AB /* MainStoryboard.storyboard */; };
+		5C46C2BC16C8C9E500B2A9AB /* SoundokuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C46C2BB16C8C9E500B2A9AB /* SoundokuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C46C29B16C8C9E500B2A9AB /* Soundoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C46C29F16C8C9E500B2A9AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C46C2A116C8C9E500B2A9AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C46C2A316C8C9E500B2A9AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C46C2A716C8C9E500B2A9AB /* Soundoku-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Soundoku-Info.plist"; sourceTree = "<group>"; };
+		5C46C2A916C8C9E500B2A9AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C46C2AB16C8C9E500B2A9AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C46C2AD16C8C9E500B2A9AB /* Soundoku-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Soundoku-Prefix.pch"; sourceTree = "<group>"; };
+		5C46C2AE16C8C9E500B2A9AB /* SoundokuAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundokuAppDelegate.h; sourceTree = "<group>"; };
+		5C46C2AF16C8C9E500B2A9AB /* SoundokuAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundokuAppDelegate.m; sourceTree = "<group>"; };
+		5C46C2B116C8C9E500B2A9AB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5C46C2B316C8C9E500B2A9AB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5C46C2B516C8C9E500B2A9AB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5C46C2B816C8C9E500B2A9AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5C46C2BA16C8C9E500B2A9AB /* SoundokuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundokuViewController.h; sourceTree = "<group>"; };
+		5C46C2BB16C8C9E500B2A9AB /* SoundokuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundokuViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C46C29816C8C9E400B2A9AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C46C2A016C8C9E500B2A9AB /* UIKit.framework in Frameworks */,
+				5C46C2A216C8C9E500B2A9AB /* Foundation.framework in Frameworks */,
+				5C46C2A416C8C9E500B2A9AB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C46C29016C8C9E400B2A9AB = {
+			isa = PBXGroup;
+			children = (
+				5C46C2A516C8C9E500B2A9AB /* Soundoku */,
+				5C46C29E16C8C9E500B2A9AB /* Frameworks */,
+				5C46C29C16C8C9E500B2A9AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C46C29C16C8C9E500B2A9AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C46C29B16C8C9E500B2A9AB /* Soundoku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C46C29E16C8C9E500B2A9AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C46C29F16C8C9E500B2A9AB /* UIKit.framework */,
+				5C46C2A116C8C9E500B2A9AB /* Foundation.framework */,
+				5C46C2A316C8C9E500B2A9AB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C46C2A516C8C9E500B2A9AB /* Soundoku */ = {
+			isa = PBXGroup;
+			children = (
+				5C46C2AE16C8C9E500B2A9AB /* SoundokuAppDelegate.h */,
+				5C46C2AF16C8C9E500B2A9AB /* SoundokuAppDelegate.m */,
+				5C46C2B716C8C9E500B2A9AB /* MainStoryboard.storyboard */,
+				5C46C2BA16C8C9E500B2A9AB /* SoundokuViewController.h */,
+				5C46C2BB16C8C9E500B2A9AB /* SoundokuViewController.m */,
+				5C46C2A616C8C9E500B2A9AB /* Supporting Files */,
+			);
+			path = Soundoku;
+			sourceTree = "<group>";
+		};
+		5C46C2A616C8C9E500B2A9AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C46C2A716C8C9E500B2A9AB /* Soundoku-Info.plist */,
+				5C46C2A816C8C9E500B2A9AB /* InfoPlist.strings */,
+				5C46C2AB16C8C9E500B2A9AB /* main.m */,
+				5C46C2AD16C8C9E500B2A9AB /* Soundoku-Prefix.pch */,
+				5C46C2B116C8C9E500B2A9AB /* Default.png */,
+				5C46C2B316C8C9E500B2A9AB /* Default@2x.png */,
+				5C46C2B516C8C9E500B2A9AB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C46C29A16C8C9E400B2A9AB /* Soundoku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C46C2BF16C8C9E500B2A9AB /* Build configuration list for PBXNativeTarget "Soundoku" */;
+			buildPhases = (
+				5C46C29716C8C9E400B2A9AB /* Sources */,
+				5C46C29816C8C9E400B2A9AB /* Frameworks */,
+				5C46C29916C8C9E400B2A9AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soundoku;
+			productName = Soundoku;
+			productReference = 5C46C29B16C8C9E500B2A9AB /* Soundoku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C46C29216C8C9E400B2A9AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Soundoku;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Johan Ismael";
+			};
+			buildConfigurationList = 5C46C29516C8C9E400B2A9AB /* Build configuration list for PBXProject "Soundoku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C46C29016C8C9E400B2A9AB;
+			productRefGroup = 5C46C29C16C8C9E500B2A9AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C46C29A16C8C9E400B2A9AB /* Soundoku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C46C29916C8C9E400B2A9AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C46C2AA16C8C9E500B2A9AB /* InfoPlist.strings in Resources */,
+				5C46C2B216C8C9E500B2A9AB /* Default.png in Resources */,
+				5C46C2B416C8C9E500B2A9AB /* Default@2x.png in Resources */,
+				5C46C2B616C8C9E500B2A9AB /* Default-568h@2x.png in Resources */,
+				5C46C2B916C8C9E500B2A9AB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C46C29716C8C9E400B2A9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C46C2AC16C8C9E500B2A9AB /* main.m in Sources */,
+				5C46C2B016C8C9E500B2A9AB /* SoundokuAppDelegate.m in Sources */,
+				5C46C2BC16C8C9E500B2A9AB /* SoundokuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C46C2A816C8C9E500B2A9AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C46C2A916C8C9E500B2A9AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C46C2B716C8C9E500B2A9AB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C46C2B816C8C9E500B2A9AB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C46C2BD16C8C9E500B2A9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C46C2BE16C8C9E500B2A9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C46C2C016C8C9E500B2A9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Soundoku/Soundoku-Prefix.pch";
+				INFOPLIST_FILE = "Soundoku/Soundoku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C46C2C116C8C9E500B2A9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Soundoku/Soundoku-Prefix.pch";
+				INFOPLIST_FILE = "Soundoku/Soundoku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C46C29516C8C9E400B2A9AB /* Build configuration list for PBXProject "Soundoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C46C2BD16C8C9E500B2A9AB /* Debug */,
+				5C46C2BE16C8C9E500B2A9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C46C2BF16C8C9E500B2A9AB /* Build configuration list for PBXNativeTarget "Soundoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C46C2C016C8C9E500B2A9AB /* Debug */,
+				5C46C2C116C8C9E500B2A9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C46C29216C8C9E400B2A9AB /* Project object */;
+}
