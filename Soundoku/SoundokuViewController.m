@@ -85,9 +85,18 @@
     [self.game setSquareAt:self.selectedIndex withValue:[sender tag]];
     self.selectedCell.square = [self.game squareAtIndex:self.selectedIndex];
     [self playSoundForSquare:self.selectedCell.square];
+    
+    if (self.game.gameWon) {
+        [self displayWinGame];
+    }
 }
 
 #pragma mark - Helpers
+- (void)displayWinGame
+{
+    NSLog(@"You won.");
+}
+
 
 - (void)playSoundForSquare:(SoundokuSquare *)square
 {

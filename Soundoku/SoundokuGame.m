@@ -16,6 +16,7 @@
     if (self) {
         _squares = [self parseSquares:initialSquares];
         _solutionSquares = solutionSquares;
+        _gameWon = NO;
     }
     return self;
 }
@@ -29,7 +30,7 @@
         square.status = GREY;
     }
     
-    //compare to solution to see if the game is won
+    self.gameWon = [self squaresMatch];
 }
 
 -(SoundokuSquare *)squareAtIndex:(NSUInteger)index
@@ -38,6 +39,14 @@
 }
 
 #pragma mark - Helpers
+
+- (BOOL)squaresMatch
+{
+    for (NSUInteger i = 0; i < [self.squares count]; i++) {
+        if ([(SoundokuSquare *)[self.squares objectAtIndex:i] value] != [(NSNumber *)[self.solutionSquares objectAtIndex:i] integerValue]) return NO;
+    }
+    return YES;
+}
 
 - (NSMutableArray *)parseSquares:(NSArray *)initialSquares {
     NSMutableArray *squares = [[NSMutableArray alloc] init];

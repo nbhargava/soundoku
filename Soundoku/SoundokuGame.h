@@ -3,6 +3,8 @@
 
 @interface SoundokuGame : NSObject
 
+@property (nonatomic) BOOL gameWon;
+
 - (id)initWithInitialSetting:(NSArray *)initialSquares
                    solution:(NSArray *)solutionSquares;
 
