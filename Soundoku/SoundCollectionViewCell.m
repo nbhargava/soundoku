@@ -42,4 +42,14 @@
     [self setNeedsDisplay];
 }
 
+- (void)highlightSquare
+{
+    self.layer.borderColor = [UIColor blueColor].CGColor;
+}
+
+- (void)unhighlightSquare
+{
+    self.layer.borderColor = [UIColor blackColor].CGColor;
+}
+
 @end

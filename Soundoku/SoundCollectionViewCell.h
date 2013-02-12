@@ -5,4 +5,7 @@
 
 @property (strong, nonatomic) SoundokuSquare *square;
 
+- (void)highlightSquare;
+- (void)unhighlightSquare;
+
 @end

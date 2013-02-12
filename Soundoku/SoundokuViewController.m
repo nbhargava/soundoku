@@ -8,6 +8,8 @@
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (strong, nonatomic) SoundokuGame *game;
 @property (weak, nonatomic) IBOutlet UIView *noteSelectionView;
+@property (strong, nonatomic) SoundCollectionViewCell *selectedCell;
+@property NSUInteger selectedIndex;
 
 @end
 
@@ -62,17 +64,36 @@
     NSIndexPath *indexPath = [self.collectionView indexPathForItemAtPoint:tapLocation];
     
     if (indexPath) {
+        if (self.selectedCell) {
+            [self.selectedCell unhighlightSquare];
+        }
+        
         SoundokuSquare *square = [self.game squareAtIndex:indexPath.row];
         [self playSoundForSquare:square];
         self.noteSelectionView.hidden = (square.status == BLACK);
+        
+        self.selectedCell = (SoundCollectionViewCell *)[self.collectionView cellForItemAtIndexPath:indexPath];
+        [self.selectedCell highlightSquare];
+        self.selectedIndex = indexPath.row;
+        
+        self.selectedCell.square = square;
     }
+}
+
+- (IBAction)assignValue:(id)sender
+{
+    [self.game setSquareAt:self.selectedIndex withValue:[sender tag]];
+    self.selectedCell.square = [self.game squareAtIndex:self.selectedIndex];
+    [self playSoundForSquare:self.selectedCell.square];
 }
 
 #pragma mark - Helpers
 
 - (void)playSoundForSquare:(SoundokuSquare *)square
 {
-    
+    NSLog(@"%d", square.value);
 }
+
+
 
 @end
