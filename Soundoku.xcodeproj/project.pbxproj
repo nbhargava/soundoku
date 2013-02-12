@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31DC520516C9D79B000B77A6 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31DC520116C9D79B000B77A6 /* 1.wav */; };
+		31DC520616C9D79B000B77A6 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31DC520216C9D79B000B77A6 /* 2.wav */; };
+		31DC520716C9D79B000B77A6 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31DC520316C9D79B000B77A6 /* 3.wav */; };
+		31DC520816C9D79B000B77A6 /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31DC520416C9D79B000B77A6 /* 4.wav */; };
+		31DC521016C9D7A2000B77A6 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31DC520A16C9D7A2000B77A6 /* 1.wav */; };
+		31DC521116C9D7A2000B77A6 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31DC520B16C9D7A2000B77A6 /* 2.wav */; };
+		31DC521216C9D7A2000B77A6 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31DC520C16C9D7A2000B77A6 /* 3.wav */; };
+		31DC521316C9D7A2000B77A6 /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31DC520D16C9D7A2000B77A6 /* 4.wav */; };
+		31DC521416C9D7A2000B77A6 /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31DC520E16C9D7A2000B77A6 /* 5.wav */; };
+		31DC521516C9D7A2000B77A6 /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 31DC520F16C9D7A2000B77A6 /* 6.wav */; };
 		5C46C2A016C8C9E500B2A9AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C46C29F16C8C9E500B2A9AB /* UIKit.framework */; };
 		5C46C2A216C8C9E500B2A9AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C46C2A116C8C9E500B2A9AB /* Foundation.framework */; };
 		5C46C2A416C8C9E500B2A9AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C46C2A316C8C9E500B2A9AB /* CoreGraphics.framework */; };
@@ -30,6 +40,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31DC520116C9D79B000B77A6 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		31DC520216C9D79B000B77A6 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		31DC520316C9D79B000B77A6 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		31DC520416C9D79B000B77A6 /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		31DC520A16C9D7A2000B77A6 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		31DC520B16C9D7A2000B77A6 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		31DC520C16C9D7A2000B77A6 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		31DC520D16C9D7A2000B77A6 /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		31DC520E16C9D7A2000B77A6 /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5.wav; sourceTree = "<group>"; };
+		31DC520F16C9D7A2000B77A6 /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6.wav; sourceTree = "<group>"; };
 		5C46C29B16C8C9E500B2A9AB /* Soundoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C46C29F16C8C9E500B2A9AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5C46C2A116C8C9E500B2A9AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -79,6 +99,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31DC520016C9D79B000B77A6 /* 4notes */ = {
+			isa = PBXGroup;
+			children = (
+				31DC520116C9D79B000B77A6 /* 1.wav */,
+				31DC520216C9D79B000B77A6 /* 2.wav */,
+				31DC520316C9D79B000B77A6 /* 3.wav */,
+				31DC520416C9D79B000B77A6 /* 4.wav */,
+			);
+			path = 4notes;
+			sourceTree = "<group>";
+		};
+		31DC520916C9D7A2000B77A6 /* 6notes */ = {
+			isa = PBXGroup;
+			children = (
+				31DC520A16C9D7A2000B77A6 /* 1.wav */,
+				31DC520B16C9D7A2000B77A6 /* 2.wav */,
+				31DC520C16C9D7A2000B77A6 /* 3.wav */,
+				31DC520D16C9D7A2000B77A6 /* 4.wav */,
+				31DC520E16C9D7A2000B77A6 /* 5.wav */,
+				31DC520F16C9D7A2000B77A6 /* 6.wav */,
+			);
+			path = 6notes;
+			sourceTree = "<group>";
+		};
 		5C46C29016C8C9E400B2A9AB = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +156,8 @@
 		5C46C2A516C8C9E500B2A9AB /* Soundoku */ = {
 			isa = PBXGroup;
 			children = (
+				31DC520916C9D7A2000B77A6 /* 6notes */,
+				31DC520016C9D79B000B77A6 /* 4notes */,
 				5C46C2D916C8EAFB00B2A9AB /* Model */,
 				5C46C2CC16C8E02400B2A9AB /* SoundCollectionViewCell.h */,
 				5C46C2CD16C8E02400B2A9AB /* SoundCollectionViewCell.m */,
@@ -221,6 +267,16 @@
 				5C46C2B616C8C9E500B2A9AB /* Default-568h@2x.png in Resources */,
 				5C46C2B916C8C9E500B2A9AB /* MainStoryboard.storyboard in Resources */,
 				5C46C2CB16C8DD6500B2A9AB /* note_button.png in Resources */,
+				31DC520516C9D79B000B77A6 /* 1.wav in Resources */,
+				31DC520616C9D79B000B77A6 /* 2.wav in Resources */,
+				31DC520716C9D79B000B77A6 /* 3.wav in Resources */,
+				31DC520816C9D79B000B77A6 /* 4.wav in Resources */,
+				31DC521016C9D7A2000B77A6 /* 1.wav in Resources */,
+				31DC521116C9D7A2000B77A6 /* 2.wav in Resources */,
+				31DC521216C9D7A2000B77A6 /* 3.wav in Resources */,
+				31DC521316C9D7A2000B77A6 /* 4.wav in Resources */,
+				31DC521416C9D7A2000B77A6 /* 5.wav in Resources */,
+				31DC521516C9D7A2000B77A6 /* 6.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
