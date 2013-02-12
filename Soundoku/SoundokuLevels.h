@@ -7,7 +7,7 @@
 +(NSArray *)easyLevelSolution;
 
 //hard level
-+(NSArray *)hardLevel;
++(NSArray *)hardLevelInitial;
 +(NSArray *)hardLevelSolution;
 
 @end
